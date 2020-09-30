@@ -1,0 +1,14 @@
+body{
+  background: #FED8C5;
+
+}
+
+img {
+  width: 200%;
+}
+
+figure{
+
+  border: 3px solid green;
+  max-width: 400px;
+}
