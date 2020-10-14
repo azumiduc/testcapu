@@ -42,9 +42,24 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
+
 .window-view {
   height: auto;
   width: 25%;
+}
+
+.stars-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  margin-bottom: 3em;
+
+width: 100%;
+}
+
+.stars {
+width: 10%;
 }
 
 /* The progress container (grey background) */
