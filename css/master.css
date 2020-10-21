@@ -1,6 +1,6 @@
 body{
   background: #FED8C5;
-
+   background="images/tache-04.png"
 }
 
 figure {
@@ -16,14 +16,15 @@ body::-webkit-scrollbar {
 .header {
   align-items: center;
   display: flex;
-  background-color: #FF8E70;
+  background-color: #18163A;
+
 }
 
 .header-container {
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 100%;
+  width: 200%;
 }
 
 .header h2 {
@@ -32,6 +33,7 @@ body::-webkit-scrollbar {
   margin-left: 2em;
   padding-top: 1em;
   padding-bottom: 1em;
+
 }
 
 .window-view-container {
@@ -45,6 +47,20 @@ body::-webkit-scrollbar {
 
 .window-view {
   height: auto;
+  width: 20%;
+}
+
+.ng-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12em;
+  width: 100%;
+}
+
+.ng{
+
+  height: auto;
   width: 25%;
 }
 
@@ -54,14 +70,26 @@ body::-webkit-scrollbar {
   flex-direction: column;
   margin-top: 4em;
   margin-bottom: 3em;
-
-width: 100%;
+  width: 100%;
 }
 
 .stars {
 width: 10%;
 }
 
+.tache-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: ;
+  margin-bottom: ;
+  width: 100%;
+}
+
+.tache{
+  width: 10%;
+
+}
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
@@ -74,4 +102,21 @@ width: 10%;
   height: 8px;
   background: #E86A6A;
   width: 0%;
+}
+.button {
+  border-radius:70px;
+  width:100px;
+  height:25px;
+  background-color: #18163A;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
 }
