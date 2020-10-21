@@ -23,27 +23,27 @@ p {
 }
 
 a {
-  color: #25224F;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 1em;
 }
 
 a:focus {
-  color: #FF9999;
-  border-bottom: 1px solid #25224F;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 a:hover {
-  color: #25224F;
+  color: #FFFFFF;
 }
 
 a span:hover {
-  color: #25224F;
-  border-bottom: 1px solid #25224F;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 a:active {
-  color: #25224F;
+  color: #FFFFFF;
 }
 
 h2,h3{
@@ -55,8 +55,8 @@ h1 {
   margin: 9.5em;
   margin-top: 0em;
   font-size: 10em;
-  margin-bottom: 1em;
-  color: #FF8E70
+  margin-bottom: 0.5em;
+  color: #18163A
 }
 
 h2 {
@@ -76,13 +76,12 @@ h3 {
 }
 
 h4 {
-  font-size: 6em;
-  margin-top:4em;
+  font-size: 5em;
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4em;
-  margin-top: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
   text-align: center;
   color: #25224F;
 }
